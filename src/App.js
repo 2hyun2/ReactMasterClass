@@ -21,7 +21,7 @@ const rotateAnimation = keyframes`
 `;
 
 const Emoji = styled.span`
-  font-size : 30px; line-height: 1; transition: font-size 1s linear;
+  font-size : 30px; line-height: 1; transition: font-size 1s linear; color: ${(props) => props.theme.textColor};
 `
 
 const Box = styled.div`
